@@ -1,0 +1,79 @@
+{
+  "HomePage": {
+    "title": "अल्गहवाली एजेंट पोर्टल",
+    "count": "मेड की संख्या",
+    "search": "खोजें",
+    "AddMaid": "नई मेड जोड़ें"
+  },
+  "ProfileCard": {
+    "status": "आवेदन की स्थिति",
+    "btn": "प्रोफ़ाइल देखें"
+  },
+  "profileDetails": {
+    "religion": "धर्म",
+    "maritalStatus": "वैवाहिक स्थिति",
+    "childrens": "बच्चे",
+    "education": "शिक्षा",
+    "experience": "अनुभव",
+    "languages": "भाषाएँ"
+  },
+  "MaidForm": {
+    "addNewMaidTitle": "नई मेड जोड़ें",
+    "maidName": "मेड का नाम",
+    "enterMaidName": "मेड का नाम दर्ज करें",
+    "maritalStatus": "वैवाहिक स्थिति",
+    "selectMaritalStatus": "वैवाहिक स्थिति चुनें",
+    "numberOfChildren": "बच्चों की संख्या",
+    "selectNumberOfChildren": "बच्चों की संख्या चुनें",
+    "education": "शिक्षा",
+    "selectEducation": "शिक्षा चुनें",
+    "experienced": "अनुभवी?",
+    "yearsOfExperience": "अनुभव के वर्ष",
+    "selectYearsOfExperience": "अनुभव के वर्ष चुनें",
+    "experienceCountry": "अनुभव का देश",
+    "selectCountryOfExperience": "अनुभव का देश चुनें",
+    "religion": "धर्म",
+    "selectReligion": "धर्म चुनें",
+    "otherReligion": "अन्य धर्म",
+    "enterReligion": "धर्म दर्ज करें",
+    "languages": "भाषाएँ",
+    "arabic": "अरबी",
+    "english": "अंग्रेज़ी",
+    "hindi": "हिंदी",
+    "nepali": "नेपाली",
+    "burmese": "बर्मी",
+    "otherLanguage": "अन्य भाषा",
+    "enterOtherLanguage": "अन्य भाषा दर्ज करें",
+    "primaryImage": "मुख्य चित्र",
+    "clickToUpload": "अपलोड करने के लिए क्लिक करें",
+    "passportFrontCopy": "पासपोर्ट फ्रंट कॉपी",
+    "passportBackCopy": "पासपोर्ट बैक कॉपी",
+    "videoOptional": "वीडियो (वैकल्पिक)",
+    "addMaid": "मेड जोड़ें"
+  },
+  "login": {
+    "logoAlt": "लोगो",
+    "loginTitle": "अपने खाते में लॉगिन करें।",
+    "loginSubtitle": "केवल अधिकृत खाते लॉग इन कर सकते हैं।",
+    "emailPlaceholder": "अपना ईमेल दर्ज करें",
+    "passwordPlaceholder": "अपना पासवर्ड दर्ज करें",
+    "passwordLabel": "अपना पासवर्ड दर्ज करें",
+    "loginButton": "लॉगिन",
+    "continueWith": "या जारी रखें",
+    "googleButton": "गूगल",
+    "googleError": "गूगल साइन-इन असफल रहा। कृपया पुन: प्रयास करें।",
+    "quote": "सहज पहुँच और दक्षता के साथ आपके मैनपावर मेड्स सेवा को सशक्त बनाना"
+  },
+  "SignUp": {
+    "empoweringMessage": "समान पहुंच और दक्षता के साथ आपके मैनपावर मेड्स सेवा को सशक्त बनाना",
+    "signingUp": "साइन अप कर रहे हैं",
+    "invitedOnly": "केवल आमंत्रित खाते साइन अप कर सकते हैं।",
+    "enterName": "अपना नाम दर्ज करें",
+    "enterPassword": "अपना पासवर्ड दर्ज करें",
+    "confirmPassword": "अपना पासवर्ड पुष्टि करें",
+    "signup": "साइन अप करें",
+    "continueWith": "या जारी रखें",
+    "google": "गूगल",
+    "googleError": "गूगल साइन-इन असफल रहा। कृपया पुनः प्रयास करें।"
+  }
+}

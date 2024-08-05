@@ -1,0 +1,79 @@
+{
+  "HomePage": {
+    "title": "अल्गावली एजेण्ट पोर्टल",
+    "count": "नाइकेको संख्या",
+    "search": "खोजी गर्नुहोस्",
+    "AddMaid": "नयाँ नाइके थप्नुहोस्"
+  },
+  "ProfileCard": {
+    "status": "आवेदन स्थिति",
+    "btn": "प्रोफाइल हेर्नुहोस्"
+  },
+  "profileDetails": {
+    "religion": "धर्म",
+    "maritalStatus": "वैवाहिक स्थिति",
+    "childrens": "बालबालिका",
+    "education": "शिक्षा",
+    "experience": "अनुभव",
+    "languages": "भाषाहरू"
+  },
+  "MaidForm": {
+    "addNewMaidTitle": "नयाँ मिड थप्नुहोस्",
+    "maidName": "आमासे नाम",
+    "enterMaidName": "आमासे नाम प्रविष्ट गर्नुहोस्",
+    "maritalStatus": "वैवाहिक स्थिति",
+    "selectMaritalStatus": "वैवाहिक स्थिति चयन गर्नुहोस्",
+    "numberOfChildren": "बच्चाको संख्या",
+    "selectNumberOfChildren": "बच्चाको संख्या चयन गर्नुहोस्",
+    "education": "शिक्षा",
+    "selectEducation": "शिक्षा चयन गर्नुहोस्",
+    "experienced": "अनुभवी?",
+    "yearsOfExperience": "अनुभवका वर्षहरू",
+    "selectYearsOfExperience": "अनुभवका वर्षहरू चयन गर्नुहोस्",
+    "experienceCountry": "अनुभवको देश",
+    "selectCountryOfExperience": "अनुभवको देश चयन गर्नुहोस्",
+    "religion": "धर्म",
+    "selectReligion": "धर्म चयन गर्नुहोस्",
+    "otherReligion": "अन्य धर्म",
+    "enterReligion": "धर्म प्रविष्ट गर्नुहोस्",
+    "languages": "भाषाहरू",
+    "arabic": "अरबी",
+    "english": "अंग्रेजी",
+    "hindi": "हिन्दी",
+    "nepali": "नेपाली",
+    "burmese": "बर्मी",
+    "otherLanguage": "अन्य भाषा",
+    "enterOtherLanguage": "अन्य भाषा प्रविष्ट गर्नुहोस्",
+    "primaryImage": "प्राथमिक छवि",
+    "clickToUpload": "अपलोड गर्न क्लिक गर्नुहोस्",
+    "passportFrontCopy": "पठाउनको अगाडि कपी",
+    "passportBackCopy": "पठाउनको पछाडि कपी",
+    "videoOptional": "भिडियो (वैकल्पिक)",
+    "addMaid": "आमासे थप्नुहोस्"
+  },
+  "login": {
+    "logoAlt": "लोगो",
+    "loginTitle": "तपाईको खातामा लगिन गर्नुहोस्।",
+    "loginSubtitle": "केवल अधिकृत खाताहरू लगिन गर्न सक्छन्।",
+    "emailPlaceholder": "तपाईंको इमेल प्रविष्ट गर्नुहोस्",
+    "passwordPlaceholder": "तपाईंको पासवर्ड प्रविष्ट गर्नुहोस्",
+    "passwordLabel": "तपाईंको पासवर्ड प्रविष्ट गर्नुहोस्",
+    "loginButton": "लगिन",
+    "continueWith": "वा संग जारी राख्नुहोस्",
+    "googleButton": "गुगल",
+    "googleError": "गुगल साइन-इन असफल भयो। कृपया पुन: प्रयास गर्नुहोस्।",
+    "quote": "तपाईंको म्यानपावर मेड्स सेवालाई सहज पहुँच र दक्षताका साथ सशक्त बनाउँदै"
+  },
+  "SignUp": {
+    "empoweringMessage": "निरन्तर पहुँच र कार्यक्षमताका साथ तपाईंको म्यानपावर मेड्स सेवालाई सशक्त बनाउने",
+    "signingUp": "साइन अप गर्दै",
+    "invitedOnly": "मात्र निमन्त्रित खाता साइन अप गर्न सक्छन्।",
+    "enterName": "तपाईंको नाम प्रविष्ट गर्नुहोस्",
+    "enterPassword": "तपाईंको पासवर्ड प्रविष्ट गर्नुहोस्",
+    "confirmPassword": "तपाईंको पासवर्ड पुष्टि गर्नुहोस्",
+    "signup": "साइन अप गर्नुहोस्",
+    "continueWith": "वा संग जारी राख्नुहोस्",
+    "google": "गूगल",
+    "googleError": "गुगल साइन-इन असफल भयो। कृपया पुन: प्रयास गर्नुहोस्।"
+  }
+}

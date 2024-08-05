@@ -1,0 +1,79 @@
+{
+  "HomePage": {
+    "title": "အယ်လ်ဂါဝါလီ အေဂျင့်ပြတ်အော်",
+    "count": "မိန်းကလေး အရေအတွက်",
+    "search": "ရှာဖွေပါ",
+    "AddMaid": "မိန်းကလေးအသစ် ထည့်ရန်"
+  },
+  "ProfileCard": {
+    "status": "အပြန်အလှန် အခြေအနေ",
+    "btn": "ပရိုဖိုင်းကို ကြည့်ပါ"
+  },
+  "profileDetails": {
+    "religion": "ဘာသာစကား",
+    "maritalStatus": "မှတ်ပုံတင် အခြေအနေ",
+    "childrens": "ကလေးများ",
+    "education": "ပညာရေး",
+    "experience": "အတွေ့အကြုံ",
+    "languages": "ဘာသာစကားများ"
+  },
+  "MaidForm": {
+    "addNewMaidTitle": "အသစ်သောအထွေထွေ",
+    "maidName": "အလုပ်သမား အမည်",
+    "enterMaidName": "အလုပ်သမား အမည် ထည့်ပါ",
+    "maritalStatus": "သက်ဆိုင်မှု အခြေအနေ",
+    "selectMaritalStatus": "သက်ဆိုင်မှု အခြေအနေ ရွေးပါ",
+    "numberOfChildren": "ကလေး အရေအတွက်",
+    "selectNumberOfChildren": "ကလေး အရေအတွက် ရွေးပါ",
+    "education": "ပညာရေး",
+    "selectEducation": "ပညာရေး ရွေးပါ",
+    "experienced": "အတွေ့အကြုံ ရှိပါသလား?",
+    "yearsOfExperience": "အတွေ့အကြုံ နှစ်",
+    "selectYearsOfExperience": "အတွေ့အကြုံ နှစ် ရွေးပါ",
+    "experienceCountry": "အတွေ့အကြုံ နိုင်ငံ",
+    "selectCountryOfExperience": "အတွေ့အကြုံ နိုင်ငံ ရွေးပါ",
+    "religion": "ဘာသာစကား",
+    "selectReligion": "ဘာသာစကား ရွေးပါ",
+    "otherReligion": "အခြား ဘာသာစကား",
+    "enterReligion": "ဘာသာစကား ထည့်ပါ",
+    "languages": "ဘာသာစကားများ",
+    "arabic": "အာရဗီ",
+    "english": "အင်္ဂလိပ်",
+    "hindi": "ဟိန္ဒီ",
+    "nepali": "နီပါလီ",
+    "burmese": "ဗမာ",
+    "otherLanguage": "အခြား ဘာသာစကား",
+    "enterOtherLanguage": "အခြား ဘာသာစကား ထည့်ပါ",
+    "primaryImage": "ပထမဦးဆုံး ဓာတ်ပုံ",
+    "clickToUpload": "တင်ရန် နှိပ်ပါ",
+    "passportFrontCopy": "ခရီးစဥ် ပတ်စဥ် ဓာတ်ပုံ",
+    "passportBackCopy": "ခရီးစဥ် နောက်ခံ ဓာတ်ပုံ",
+    "videoOptional": "ဗွီဒီယို (ရွေးချယ်နိုင်ပါသည်)",
+    "addMaid": "အလုပ်သမား ထည့်ပါ"
+  },
+  "login": {
+    "logoAlt": "လိုဂို",
+    "loginTitle": "သင့်အကောင့်သို့ ဝင်ပါ။",
+    "loginSubtitle": "ခွင့်ပြုထားသော အကောင့်များသာ ဝင်နိုင်သည်။",
+    "emailPlaceholder": "သင့်အီးမေးလ်ကို ထည့်သွင်းပါ",
+    "passwordPlaceholder": "သင့်စကားဝှက်ကို ထည့်သွင်းပါ",
+    "passwordLabel": "သင့်စကားဝှက်ကို ထည့်သွင်းပါ",
+    "loginButton": "လော့ဂ်အင်",
+    "continueWith": "သို့မဟုတ် ဆက်လုပ်ရန်",
+    "googleButton": "ဂူဂဲလ်",
+    "googleError": "Google ၀င်မည် ပြီးဆုံးမပါ။ ကျေးဇူးပြု၍ ထပ်မံကြိုးစားပါ။",
+    "quote": "သင့် Manpower Maids ၀န်ဆောင်မှုကို ချောမွေ့သော အခွင့်အရေးနှင့် ထိရောက်မှုဖြင့် လုပ်ဆောင်ခြင်း"
+  },
+  "SignUp": {
+    "empoweringMessage": "အဆင်ပြေစွာလက်လှမ်းမှီနိုင်သော ဝန်ဆောင်မှုနှင့် ထိရောက်မှုဖြင့် သင့်အား အကောင်းဆုံးမိတ်ဆက်ပေးပါသည်",
+    "signingUp": "အကောင့်ဖွင့်ခြင်း",
+    "invitedOnly": "ဖိတ်ကြားထားသောအကောင့်များသာ အကောင့်ဖွင့်နိုင်ပါသည်။",
+    "enterName": "သင့်နာမည် ထည့်သွင်းပါ",
+    "enterPassword": "သင့်စကားဝှက် ထည့်သွင်းပါ",
+    "confirmPassword": "သင့်စကားဝှက် အတည်ပြုပါ",
+    "signup": "အကောင့်ဖွင့်ရန်",
+    "continueWith": "သို့မဟုတ် ဆက်လက်လုပ်ဆောင်ပါ",
+    "google": "ဂူဂဲလ်",
+    "googleError": "Google လော့ဂ်အင် မအောင်မြင်ပါ။ ထပ်မံကြိုးစားပါ။"
+  }
+}

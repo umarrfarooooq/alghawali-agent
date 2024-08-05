@@ -1,0 +1,79 @@
+{
+  "HomePage": {
+    "title": "Alghawali Agent Portal",
+    "count": "Maid Count",
+    "search": "Search",
+    "AddMaid": "Add New Maid"
+  },
+  "ProfileCard": {
+    "status": "Application Status",
+    "btn": "See Profile"
+  },
+  "profileDetails": {
+    "religion": "Religion",
+    "maritalStatus": "Marital Status",
+    "childrens": "Childrens",
+    "education": "Education",
+    "experience": "Experience",
+    "languages": "Languages"
+  },
+  "MaidForm": {
+    "addNewMaidTitle": "Add New Maid",
+    "maidName": "Maid Name",
+    "enterMaidName": "Enter maid name",
+    "maritalStatus": "Marital Status",
+    "selectMaritalStatus": "Select marital status",
+    "numberOfChildren": "Number of Children",
+    "selectNumberOfChildren": "Select number of children",
+    "education": "Education",
+    "selectEducation": "Select Education",
+    "experienced": "Experienced?",
+    "yearsOfExperience": "Years of Experience",
+    "selectYearsOfExperience": "Select years of experience",
+    "experienceCountry": "Experience Country",
+    "selectCountryOfExperience": "Select country of experience",
+    "religion": "Religion",
+    "selectReligion": "Select religion",
+    "otherReligion": "Other Religion",
+    "enterReligion": "Enter religion",
+    "languages": "Languages",
+    "arabic": "Arabic",
+    "english": "English",
+    "hindi": "Hindi",
+    "nepali": "Nepali",
+    "burmese": "Burmese",
+    "otherLanguage": "Other Language",
+    "enterOtherLanguage": "Enter other language",
+    "primaryImage": "Primary Image",
+    "clickToUpload": "Click to upload",
+    "passportFrontCopy": "Passport Front Copy",
+    "passportBackCopy": "Passport Back Copy",
+    "videoOptional": "Video (Optional)",
+    "addMaid": "Add Maid"
+  },
+  "login": {
+    "logoAlt": "logo",
+    "loginTitle": "Login into your account.",
+    "loginSubtitle": "Only authorized accounts can log in.",
+    "emailPlaceholder": "Enter your email",
+    "passwordPlaceholder": "Enter your password",
+    "passwordLabel": "Enter your password",
+    "loginButton": "Login",
+    "continueWith": "Or Continue with",
+    "googleButton": "Google",
+    "googleError": "Google Sign-In was unsuccessful. Please try again.",
+    "quote": "Empowering Your Manpower Maids Service with Seamless Access and Efficiency"
+  },
+  "SignUp": {
+    "empoweringMessage": "Empowering Your Manpower Maids Service with Seamless Access and Efficiency",
+    "signingUp": "Signing Up",
+    "invitedOnly": "Only invited accounts can Sign up.",
+    "enterName": "Enter your Name",
+    "enterPassword": "Enter your password",
+    "confirmPassword": "Confirm your password",
+    "signup": "Sign Up",
+    "continueWith": "Or Continue with",
+    "google": "Google",
+    "googleError": "Google Sign-In was unsuccessful. Please try again."
+  }
+}

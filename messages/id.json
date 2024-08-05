@@ -1,0 +1,79 @@
+{
+  "HomePage": {
+    "title": "Portal Agen Alghawali",
+    "count": "Jumlah Pembantu",
+    "search": "Cari",
+    "AddMaid": "Tambah Pembantu Baru"
+  },
+  "ProfileCard": {
+    "status": "Status Aplikasi",
+    "btn": "Lihat Profil"
+  },
+  "profileDetails": {
+    "religion": "Agama",
+    "maritalStatus": "Status Pernikahan",
+    "childrens": "Anak-anak",
+    "education": "Pendidikan",
+    "experience": "Pengalaman",
+    "languages": "Bahasa"
+  },
+  "MaidForm": {
+    "addNewMaidTitle": "Tambah Pembantu Baru",
+    "maidName": "Nama Pembantu",
+    "enterMaidName": "Masukkan nama pembantu",
+    "maritalStatus": "Status Pernikahan",
+    "selectMaritalStatus": "Pilih status pernikahan",
+    "numberOfChildren": "Jumlah Anak",
+    "selectNumberOfChildren": "Pilih jumlah anak",
+    "education": "Pendidikan",
+    "selectEducation": "Pilih pendidikan",
+    "experienced": "Berpengalaman?",
+    "yearsOfExperience": "Tahun Pengalaman",
+    "selectYearsOfExperience": "Pilih tahun pengalaman",
+    "experienceCountry": "Negara Pengalaman",
+    "selectCountryOfExperience": "Pilih negara pengalaman",
+    "religion": "Agama",
+    "selectReligion": "Pilih agama",
+    "otherReligion": "Agama Lainnya",
+    "enterReligion": "Masukkan agama",
+    "languages": "Bahasa",
+    "arabic": "Arab",
+    "english": "Inggris",
+    "hindi": "Hindi",
+    "nepali": "Nepali",
+    "burmese": "Burma",
+    "otherLanguage": "Bahasa Lainnya",
+    "enterOtherLanguage": "Masukkan bahasa lainnya",
+    "primaryImage": "Gambar Utama",
+    "clickToUpload": "Klik untuk mengunggah",
+    "passportFrontCopy": "Salinan Depan Paspor",
+    "passportBackCopy": "Salinan Belakang Paspor",
+    "videoOptional": "Video (Opsional)",
+    "addMaid": "Tambah Pembantu"
+  },
+  "login": {
+    "logoAlt": "logo",
+    "loginTitle": "Masuk ke akun Anda.",
+    "loginSubtitle": "Hanya akun yang diizinkan yang dapat masuk.",
+    "emailPlaceholder": "Masukkan email Anda",
+    "passwordPlaceholder": "Masukkan kata sandi Anda",
+    "passwordLabel": "Masukkan kata sandi Anda",
+    "loginButton": "Masuk",
+    "continueWith": "Atau Lanjutkan dengan",
+    "googleButton": "Google",
+    "googleError": "Sign-In Google tidak berhasil. Silakan coba lagi.",
+    "quote": "Memberdayakan Layanan Pembantu Tenaga Kerja Anda dengan Akses dan Efisiensi yang Mudah"
+  },
+  "SignUp": {
+    "empoweringMessage": "Memberdayakan Layanan Pembantu Tenaga Kerja Anda dengan Akses dan Efisiensi yang Lancar",
+    "signingUp": "Mendaftar",
+    "invitedOnly": "Hanya akun yang diundang yang dapat Mendaftar.",
+    "enterName": "Masukkan Nama Anda",
+    "enterPassword": "Masukkan kata sandi Anda",
+    "confirmPassword": "Konfirmasi kata sandi Anda",
+    "signup": "Daftar",
+    "continueWith": "Atau Lanjutkan dengan",
+    "google": "Google",
+    "googleError": "Masuk Google tidak berhasil. Silakan coba lagi."
+  }
+}
