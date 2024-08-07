@@ -10,8 +10,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Alghawali Agent",
-  description: "Alghawali Agent",
+  title: "Al Ghawali Agent",
+  description: "Al Ghawali Agent",
 };
 
 export default function RootLayout({ children }) {

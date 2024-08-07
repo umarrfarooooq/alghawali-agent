@@ -1,4 +1,5 @@
 import { NextIntlClientProvider } from 'next-intl';
+import { unstable_setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 
 const locales = ['en', 'my', 'ne', 'in', 'id'];
@@ -9,7 +10,7 @@ export function generateStaticParams() {
 
 export default async function LocaleLayout({ children, params }) {
   const locale = params?.locale;
-
+  unstable_setRequestLocale(locale);
   if (!locales.includes(locale)) {
     notFound();
   }

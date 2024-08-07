@@ -15,6 +15,7 @@ const MaidDetailComponent = ({ maid }) => {
           {isFormVisible && (
             <aside className="absolute z-[20] right-0 top-6">
               <UpdateMaid
+                maid={maid}
                 maidId={maid._id}
                 onCloseForm={() => setIsFormVisible(false)}
               />
@@ -30,8 +31,8 @@ const MaidDetailComponent = ({ maid }) => {
                 <div>
                   <div className="maidActions flex items-center gap-2">
                     <div
-                      onClick={() => setIsFormVisible(false)}
-                      className="editMaid cursor-not-allowed p-3 bg-[#EBEBEB] rounded-2xl"
+                      onClick={() => setIsFormVisible(true)}
+                      className="editMaid cursor-pointer p-3 bg-[#EBEBEB] rounded-2xl"
                     >
                       <div>
                         <svg
