@@ -31,7 +31,7 @@ const MaidDetailComponent = ({ maid }) => {
                 <div>
                   <div className="maidActions flex items-center gap-2">
                     <div
-                      onClick={() => setIsFormVisible(true)}
+                      onClick={() => setIsFormVisible(false)}
                       className="editMaid cursor-pointer p-3 bg-[#EBEBEB] rounded-2xl"
                     >
                       <div>
