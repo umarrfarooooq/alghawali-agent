@@ -11,9 +11,10 @@ import InputError from "@/components/Input-Error/Input-Error";
 import { GoogleLogin } from "@react-oauth/google";
 import { useTranslations } from "next-intl";
 import axiosInstance from "@/lib/axiosInstanse";
+import { LanguagePicker } from "@/components/Header/Language-Picker";
 
-const SignupComponent = ({token}) => {
-  const t  = useTranslations('SignUp')
+const SignupComponent = ({ token }) => {
+  const t = useTranslations("SignUp");
   const router = useRouter();
   const [loading, setLoading] = useState(false);
   const [name, setName] = useState("");
@@ -47,18 +48,19 @@ const SignupComponent = ({token}) => {
     }
 
     try {
-      const response = await axiosInstance.post(`api/v1/agents/complete-signup/${token}`, {
-        name,
-        password,
-      });
+      const response = await axiosInstance.post(
+        `api/v1/agents/complete-signup/${token}`,
+        {
+          name,
+          password,
+        }
+      );
       setLoading(false);
       router.push("/");
     } catch (error) {
       setLoading(false);
       if (error.response) {
-        setError(
-          error.response.data.error || "An error occurred during login"
-        );
+        setError(error.response.data.error || "An error occurred during login");
       } else if (error.request) {
         setError("No response from server. Please try again.");
       } else {
@@ -89,6 +91,9 @@ const SignupComponent = ({token}) => {
   return (
     <div className="bg-[#F2F2F2] min-h-screen flex items-center justify-center lg:py-20 lg:px-20">
       <div className="container mx-auto px-2">
+        <div className="flex items-center justify-center">
+          <LanguagePicker />
+        </div>
         <div
           style={{ boxShadow: "0px 4px 12px 0px rgba(3, 12, 50, 0.16)" }}
           className="flex item-center justify-between p-4 sm:p-8 gap-4 rounded-2xl bg-[#FFFBFA]"
@@ -96,7 +101,7 @@ const SignupComponent = ({token}) => {
           <div className="hidden w-full lg:max-h-[43rem] loginImage rounded-lg overflow-hidden p-4 xl:flex flex-col justify-between">
             <div className="w-full flex items-center justify-center"></div>
             <div className="w-full text-base lg:text-3xl font-normal mb-6 text-[#FFFDFA]">
-              {t('empoweringMessage')}
+              {t("empoweringMessage")}
             </div>
           </div>
           <div className="w-full lg:max-h-[43rem] bg-[#F2F2F2] rounded-lg border-[#F4F1EB]">
@@ -108,10 +113,10 @@ const SignupComponent = ({token}) => {
                 <div>
                   <div>
                     <div className="text-xl md:text-2xl font-semibold">
-                      {t('signingUp')}
+                      {t("signingUp")}
                     </div>
                     <div className="text-base font-normal">
-                      {t('invitedOnly')}
+                      {t("invitedOnly")}
                     </div>
                   </div>
                 </div>
@@ -125,19 +130,19 @@ const SignupComponent = ({token}) => {
                 {error && <InputError errorMessage={error} />}
                 <div className="flex flex-col gap-6">
                   <InputField
-                    label={t('enterName')}
+                    label={t("enterName")}
                     type="text"
-                    placeholder={t('enterName')}
+                    placeholder={t("enterName")}
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                   />
                   <div className="border relative border-[#A9A9A9] px-4 rounded-lg flex items-center justify-start gap-2">
                     <div className="px-2 absolute text-xs top-[-.5rem] bg-[#F2F2F2]">
-                      {t('enterPassword')}
+                      {t("enterPassword")}
                     </div>
                     <input
                       type={showPassword ? "text" : "password"}
-                      placeholder={t('enterPassword')}
+                      placeholder={t("enterPassword")}
                       className="border-none w-full py-[0.88rem] outline-none bg-transparent"
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
@@ -211,11 +216,11 @@ const SignupComponent = ({token}) => {
                   </div>
                   <div className="border relative border-[#A9A9A9] px-4 rounded-lg flex items-center justify-start gap-2">
                     <div className="px-2 absolute text-xs top-[-.5rem] bg-[#F2F2F2]">
-                    {t('confirmPassword')}
+                      {t("confirmPassword")}
                     </div>
                     <input
                       type={showPassword ? "text" : "password"}
-                      placeholder={t('confirmPassword')}
+                      placeholder={t("confirmPassword")}
                       className="border-none w-full py-[0.88rem] outline-none bg-transparent"
                       value={confirmPassword}
                       onChange={(e) => setConfirmPassword(e.target.value)}
@@ -296,7 +301,7 @@ const SignupComponent = ({token}) => {
                     {loading && (
                       <Loader2 className="mr-2 h-4 w-4 animate-spin" />
                     )}
-                    {t('signup')}
+                    {t("signup")}
                   </Button>
                 </div>
               </form>
@@ -318,7 +323,7 @@ const SignupComponent = ({token}) => {
                     </svg>
                   </span>
                   <span className="text-sm w-fit text-nowrap">
-                    {t('continueWith')}
+                    {t("continueWith")}
                   </span>
                   <span className="w-full">
                     <svg
@@ -388,7 +393,7 @@ const SignupComponent = ({token}) => {
                         {loading ? (
                           <Loader2 className="mr-2 h-4 w-4 animate-spin" />
                         ) : null}
-                        <span>{t('google')}</span>
+                        <span>{t("google")}</span>
                       </button>
                     )}
                   />

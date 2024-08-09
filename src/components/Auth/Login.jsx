@@ -10,6 +10,7 @@ import InputError from "@/components/Input-Error/Input-Error";
 import { GoogleLogin } from "@react-oauth/google";
 import axiosInstance from "@/lib/axiosInstanse";
 import { useTranslations } from "next-intl";
+import { LanguagePicker } from "../Header/Language-Picker";
 
 const LoginComponent = () => {
   const t = useTranslations("login");
@@ -79,6 +80,9 @@ const LoginComponent = () => {
   return (
     <div className="bg-[#F2F2F2] min-h-screen flex items-center justify-center lg:py-20 lg:px-20">
       <div className="container mx-auto px-2">
+      <div className="flex items-center justify-center">
+        <LanguagePicker />
+      </div>
         <div
           style={{ boxShadow: "0px 4px 12px 0px rgba(3, 12, 50, 0.16)" }}
           className="flex item-center justify-between p-4 sm:p-8 gap-4 rounded-2xl bg-[#FFFBFA]"
