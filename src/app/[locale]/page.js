@@ -7,8 +7,8 @@ import AuthRedirect from "@/lib/AuthRedirect";
 export default function Home() {
   return (
     <>
-      <Logout />
       <AuthRedirect requireAuth={true}>
+        <Logout />
         <Navbar />
         <AllMaids />
       </AuthRedirect>

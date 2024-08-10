@@ -21,7 +21,7 @@ const Logout = () => {
         showModal={showModal}
         toggleModal={toggleModal}
       />
-      <div class="logout fixed bottom-[25px] left-[25px] z-[5]">
+      <div className="logout fixed bottom-[25px] left-[25px] z-[5]">
         <button onClick={toggleModal} className="p-3 text-[#fff] bg-[#CD2424] rounded-lg text-base flex items-center gap-2">
           <LogOut />
           <span className="hidden sm:inline-block">Logout</span>

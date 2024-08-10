@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Loader2 } from "lucide-react";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import Logo from "@public/logo.svg";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
@@ -11,10 +11,13 @@ import { GoogleLogin } from "@react-oauth/google";
 import axiosInstance from "@/lib/axiosInstanse";
 import { useTranslations } from "next-intl";
 import { LanguagePicker } from "../Header/Language-Picker";
+import Link from "next/link";
 
 const LoginComponent = () => {
   const t = useTranslations("login");
   const router = useRouter();
+  const pathname = usePathname();
+  const currentLocale = pathname.split("/")[1];
   const [loading, setLoading] = useState(false);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -76,13 +79,15 @@ const LoginComponent = () => {
       console.error("Google login error:", error);
     }
   };
-
+  const href = pathname.includes(`/${currentLocale}/register`)
+    ? pathname
+    : `/${currentLocale}/register`;
   return (
     <div className="bg-[#F2F2F2] min-h-screen flex items-center justify-center lg:py-20 lg:px-20">
       <div className="container mx-auto px-2">
-      <div className="flex items-center justify-center">
-        <LanguagePicker />
-      </div>
+        <div className="flex items-center justify-center">
+          <LanguagePicker />
+        </div>
         <div
           style={{ boxShadow: "0px 4px 12px 0px rgba(3, 12, 50, 0.16)" }}
           className="flex item-center justify-between p-4 sm:p-8 gap-4 rounded-2xl bg-[#FFFBFA]"
@@ -103,6 +108,50 @@ const LoginComponent = () => {
                     </div>
                   </div>
                 </div>
+                <div className="flex items-center justify-between gap-4">
+                  <span className="w-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="w-full"
+                      height="2"
+                      viewBox="0 0 194 2"
+                      fill="none"
+                    >
+                      <path
+                        d="M1 1L193 1.00002"
+                        stroke="#696969"
+                        strokeLinecap="round"
+                      />
+                    </svg>
+                  </span>
+                  <span className="text-sm w-fit text-nowrap">OR</span>
+                  <span className="w-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="w-full"
+                      height="2"
+                      viewBox="0 0 194 2"
+                      fill="none"
+                    >
+                      <path
+                        d="M1 1L193 1.00002"
+                        stroke="#696969"
+                        strokeLinecap="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <Link href={href} className="w-full">
+                  <Button
+                    disabled={loading}
+                    className="w-full bg-[#107243] shadow-md"
+                  >
+                    {loading && (
+                      <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                    )}
+                    Register as Agent
+                  </Button>
+                </Link>
               </div>
 
               <form

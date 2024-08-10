@@ -8,12 +8,14 @@ import { Button } from "@/components/ui/button";
 import { Checkbox } from "../ui/checkbox";
 import { useTranslations } from "next-intl";
 import { useToast } from "@/components/ui/use-toast";
+import { VerifyAgentToken } from "@/lib/VerifyAgentToken";
 
 const axiosInstance = axios.create({
   baseURL: process.env.NEXT_PUBLIC_API_URL,
 });
 
 const AddMaidForm = ({ onCloseForm }) => {
+  const { verifyToken } = VerifyAgentToken();
   const { toast } = useToast();
   const t = useTranslations("MaidForm");
   const [isExperienced, setIsExperienced] = useState(false);
@@ -157,12 +159,12 @@ const AddMaidForm = ({ onCloseForm }) => {
 
     const selectedLanguages = [];
     document
-    .querySelectorAll('input[name="languages[]"]:checked')
-    .forEach((checkbox) => {
-      if (checkbox.value !== "Other") {
-        selectedLanguages.push(checkbox.value);
-      }
-    });
+      .querySelectorAll('input[name="languages[]"]:checked')
+      .forEach((checkbox) => {
+        if (checkbox.value !== "Other") {
+          selectedLanguages.push(checkbox.value);
+        }
+      });
     selectedLanguages.forEach((lang) => formData.append("languages[]", lang));
 
     if (showOtherLanguage && e.target.otherLanguages.value.trim()) {
@@ -171,15 +173,13 @@ const AddMaidForm = ({ onCloseForm }) => {
 
     formData.append("maidImage", e.target.maidImage.files[0]);
     formData.append("maidPassportFront", e.target.maidPassportFront.files[0]);
-    if(e.target.maidPassportBack.files[0]){
-      formData.append("maidPassportBack", e.target.maidPassportBack.files[0]);      
+    if (e.target.maidPassportBack.files[0]) {
+      formData.append("maidPassportBack", e.target.maidPassportBack.files[0]);
     }
 
     if (e.target.videoLink.files[0]) {
       formData.append("videoLink", e.target.videoLink.files[0]);
     }
-
-    const token = localStorage.getItem("agentToken");
 
     try {
       const response = await axiosInstance.post(
@@ -187,7 +187,7 @@ const AddMaidForm = ({ onCloseForm }) => {
         formData,
         {
           headers: {
-            Authorization: `Bearer ${token}`,
+            Authorization: `Bearer ${verifyToken}`,
             "Content-Type": "multipart/form-data",
           },
         }

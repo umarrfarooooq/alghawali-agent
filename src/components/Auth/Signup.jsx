@@ -6,7 +6,6 @@ import Logo from "@public/logo.svg";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import InputField from "@/components/ui/Custom-Input";
-import axios from "axios";
 import InputError from "@/components/Input-Error/Input-Error";
 import { GoogleLogin } from "@react-oauth/google";
 import { useTranslations } from "next-intl";
