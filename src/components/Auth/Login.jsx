@@ -122,9 +122,9 @@ const LoginComponent = () => {
                     <div className="text-xl md:text-2xl font-semibold">
                       {t("loginTitle")}
                     </div>
-                    {/* <div className="text-base font-normal">
+                    <div className="text-base font-normal">
                       {t("loginSubtitle")}
-                    </div> */}
+                    </div>
                   </div>
                 </div>
                 <div className="flex items-center justify-between gap-4">
